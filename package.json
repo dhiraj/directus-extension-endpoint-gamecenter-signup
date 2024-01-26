@@ -2,7 +2,7 @@
 	"name": "directus-extension-endpoint-gamecenter-signup",
 	"description": "Allows an Apple GameCenter client app to post an Apple signed playerId to create a user in Directus and returns OAuth2 tokens for it. This is a directus.io endpoint extension.",
 	"icon": "extension",
-	"version": "1.0.3",
+	"version": "1.0.5",
 	"license": "MIT",
 	"repository": "github:dhiraj/directus-extension-endpoint-gamecenter-signup",
 	"keywords": [
