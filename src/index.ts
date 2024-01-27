@@ -132,7 +132,7 @@ export default defineEndpoint({
 				logger.error(`Error verifying signature: ${e}`)
 				return res.status(444).json({error:"Could not verify signature, unknown error"}).end()
 			}
-			const userEmail = `${btoa(req.body.teamPlayerId)}@noemail.com`;
+			const userEmail = `${btoa(req.body.teamPlayerId)}@gknoemail.com`;
 			let foundUser = await usersService.getUserByEmail(userEmail);
 			try {
 				if (!isEmpty(foundUser)){
